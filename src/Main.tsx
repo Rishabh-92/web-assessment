@@ -120,7 +120,7 @@ const Main = () => {
       let x: any = new BigNumber(a);
       let y: any = new BigNumber(b);
 
-      let answer = (x.plus(y).multipliedBy(x.plus(y))).dividedBy((y.multipliedBy(2)).plus(x.minus(y)));
+      let answer = (x.plus(y).multipliedBy(x.plus(y))).dividedBy((y.multipliedBy(y)).plus(x.minus(y)));
       console.log("answer",answer);
       
     }
